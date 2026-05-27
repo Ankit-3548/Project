@@ -29,7 +29,7 @@ export default function StudentGradeSystem() {
 
       <input
         type="number"
-        placeholder="Enter Marks"
+        placeholder="Enter marks"
         value={marks}
         onChange={(e) => setMarks(e.target.value)}
       />
@@ -37,7 +37,7 @@ export default function StudentGradeSystem() {
       <br /><br />
 
       <button onClick={calculateGrade} className="btn">
-        Check Grade
+        Check 
       </button>
 
       <h2>Grade: {grade}</h2>

@@ -21,8 +21,8 @@ export default function Project1() {
   };
 
   return (
-    <div>
-      <h2>Number Guess Game</h2>
+    <div style={{textAlign:"center",marginTop:"50px"}}>
+      <h3>Number Guess Game</h3>
 
       <h3>Guess a number between 1 to 10</h3>
 
